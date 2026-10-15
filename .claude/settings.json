@@ -10,7 +10,7 @@
         "SessionStart":[
             {
                 "hooks": [
-                    { "type": "command", "command": "bash ¨$CLAUDE_PROJECT_DIR/.claude/hooks/session_start.sh¨" }
+                    { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/session_start.sh\"" }
                 ]
             }
         ],
@@ -18,14 +18,14 @@
             {
                 "matcher": "Edit|Write",
                 "hooks": [
-                    { "type": "command", "command": "bash ¨$CLAUDE_PROJECT_DIR/.claude/hooks/block-stubs.sh¨" },
-                    { "type": "command", "command": "bash ¨$CLAUDE_PROJECT_DIR/.claude/hooks/block-secrets.sh¨" }
+                    { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/block-stubs.sh\"" },
+                    { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/block-secrets.sh\"" }
                 ]
             },
             {
                 "matcher": "Bash",
                 "hooks": [
-                    { "type": "command", "command": "bash ¨$CLAUDE_PROJECT_DIR/.claude/hooks/block-secrets.sh¨" }
+                    { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/block-secrets.sh\"" }
                 ]
             }
         ]
