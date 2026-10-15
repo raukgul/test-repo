@@ -3,7 +3,7 @@
 cd "${CLAUDE_PROJECT_DIR:-.}" || exit 0
 
 resume=docs/RESUME.md
-[ -f "$resume" ] || { echo "NOTICE: docs/RESUME.md is missing. Run /resume and offer to rebuild it."; exit 0; }
+[ -f "$resume" ] || { echo "NOTICE: docs/RESUME.md is missing. Run /pickup and offer to rebuild it."; exit 0; }
 
 resume_date=$(head -1 "$resume" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
 last_commit=$(git log -1 --format=%cs 2>/dev/null)

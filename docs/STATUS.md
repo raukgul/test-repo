@@ -5,7 +5,7 @@ Rules: one row per feature, never per task. Next action starts with a verb and n
 
 | Feature | Stage | Next action | Blocked by | Updated |
 |---|---|---|---|---|
-| project-brief | Decide | run /resume and take entry point A (brief interview) | | |
+| project-brief | Decide | run /pickup and take entry point A (brief interview) | | |
 
 ## Decisions I owe myself
 Questions only I can answer, each with what it blocks.

@@ -23,7 +23,7 @@ A test project to practice setting up a project for working with Claude, and bas
 The board is docs/STATUS.md. The handoff is docs/RESUME.md.
 
 ## Session discipline
-- Start every session with `/resume`. Do nothing before it.
+- Start every session with `/pickup`. Do nothing before it.
 - End every session with `/wrap`. It rewrites docs/RESUME.md and updates docs/STATUS.md.
 - One stage of one feature per session when possible.
 - Commit after every artifact lands. Uncommitted work does not survive a closed laptop.
